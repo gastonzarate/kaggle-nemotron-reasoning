@@ -1,0 +1,29 @@
+{
+  "id": "gastonz195/eval-holdout-structured-v1",
+  "title": "eval-holdout-structured-v1",
+  "code_file": "eval-holdout-structured-v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": ["gpu"],
+  "machine_shape": "NvidiaRtxPro6000",
+  "dataset_sources": [
+    "mayukh18/nemotron-packages",
+    "dennisfong/nvidia-nemotron-offline-packages",
+    "gastonz195/nemotron-holdout-clean-v1"
+  ],
+  "kernel_sources": [
+    "ryanholbrook/nvidia-utility-script",
+    "metric/nvidia-metric-utility-script",
+    "gastonz195/train-structured-v1"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ]
+}

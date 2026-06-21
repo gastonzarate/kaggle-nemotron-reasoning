@@ -1,0 +1,30 @@
+{
+  "id": "gastonz195/train-structured-v3-curated-ep2",
+  "title": "train-structured-v3-curated-ep2",
+  "code_file": "train-structured-v3-curated-ep2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "machine_shape": "NvidiaRtxPro6000",
+  "dataset_sources": [
+    "mayukh18/nemotron-packages",
+    "gastonz195/nemotron-structured-cot-v3",
+    "gastonz195/v3-curated-adapter",
+    "dennisfong/nvidia-nemotron-offline-packages",
+    "rubyducklove/nvidia-cutlass",
+    "dgxchen/trained-adapter"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1"
+  ]
+}

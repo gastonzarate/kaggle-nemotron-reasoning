@@ -1,0 +1,46 @@
+# Data — never commit
+data/raw/
+data/processed/
+data/synthetic/
+
+# Trained artifacts
+adapters/*/checkpoints/
+adapters/*/*.safetensors
+adapters/*/*.bin
+outputs/
+
+# Secrets
+.env
+.env.*
+kaggle.json
+*.pem
+
+# Python / uv
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version
+
+# Notebook scratch
+.ipynb_checkpoints/
+notebooks/scratch/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Kaggle dataset staging — adapters (3.3GB c/u) + corpus CSVs derivados de la competencia
+data/kaggle_datasets/
+data/analysis/*.csv
+
+# Forum/playwright scrapes y logs (ruido, posible token en logs)
+.playwright-mcp/
+logs/
+*.yml
+!pyproject.yml
+
+# Backups locales
+*.BUGGY.csv
+notebooks/community/
