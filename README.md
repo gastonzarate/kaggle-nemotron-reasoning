@@ -15,6 +15,10 @@ Puesto ~2368 de 4183 (top 57%), private LB 0.832. Sin medalla (bronce requería 
 | Corpus combinado (teacher + reasoning verificado) | 0.67 |
 | + lm_head en targets / batch 64 | 0.59–0.77 |
 
+## Informe completo
+
+Las lecciones detalladas y transferibles a otras competencias están en [`docs/lecciones-aprendidas.md`](docs/lecciones-aprendidas.md).
+
 ## Qué aprendí
 
 1. **El estilo del CoT pesa más que la corrección del contenido.** Trazas de solver verificadas al 100% rinden peor que las del teacher porque están fuera de la distribución nativa del modelo. El LoRA gasta su poco rank imitando un estilo ajeno en vez de afinar el razonamiento.
